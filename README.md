@@ -1,6 +1,4 @@
-A todo CLI written in C++, inspired by Taskwarrior.
-
-Supports adding, listing, modifying, and deleting tasks with:
+A todo CLI written in C++. Supports adding, listing, modifying, and deleting tasks with:
 
 - priorities
 - due dates
