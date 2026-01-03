@@ -43,6 +43,7 @@ List tasks
 ```bash
 task list
 ```
+![Add task](screenshots/add.png)
 
 ### Selecting tasks
 
@@ -61,6 +62,7 @@ task 3 modify pri:M
 task +study modify project:cs
 task pri:H modify due:tomorrow
 ```
+![Modify task](screenshots/modify.png)
 
 Description operations
 
@@ -69,6 +71,7 @@ task 1 modify description+= append text
 task 2 modify description^=prepend text
 task 3 modify description:new description
 ```
+![Description operations](screenshots/description.png)
 
 Delete tasks
 
@@ -78,11 +81,9 @@ task +study delete
 task pri:L delete
 task +study pri:L delete
 ```
-
-![Add task](screenshots/add.png)
-
-![Modify task](screenshots/modify.png)
-
-![Description operations](screenshots/description.png)
-
 ![Delete task](screenshots/delete.png)
+
+
+
+
+
