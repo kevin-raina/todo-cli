@@ -9,6 +9,7 @@ Supports adding, listing, modifying, and deleting tasks with:
 - description editing
 
 
+
 ## Build
 
 Requires:
@@ -25,6 +26,7 @@ cd build
 cmake ..
 cmake --build .
 ```
+
 
 ## Usage
 
