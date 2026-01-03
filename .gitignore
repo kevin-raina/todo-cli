@@ -1,0 +1,15 @@
+build/
+todo
+todo-cli
+
+data/
+*.jsonl
+
+compile_flags.txt
+.vscode/
+.clangd/
+.cache/
+
+list.txt
+.DS_Store
+
