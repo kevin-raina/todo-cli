@@ -1,4 +1,4 @@
-A keyboard-driven todo CLI written in C++, inspired by Taskwarrior.
+A todo CLI written in C++, inspired by Taskwarrior.
 
 Supports adding, listing, modifying, and deleting tasks with:
 
@@ -8,7 +8,6 @@ Supports adding, listing, modifying, and deleting tasks with:
 - tags
 - description editing
 
----
 
 ## Build
 
@@ -61,7 +60,7 @@ task +study modify project:cs
 task pri:H modify due:tomorrow
 ```
 
-Description operations:
+Description operations
 
 ```bash
 task 1 modify description+= append text
