@@ -25,18 +25,23 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
+```
 
 ## Usage
 
 Add tasks
 
+```bash
 task add this is a task
 task add pri:H +study project:CS due:4d finish project
 task add due:2026-13-01 complete project
+```
 
 List tasks
-task list
 
+```bash
+task list
+```
 
 ### Selecting tasks
 
@@ -49,22 +54,29 @@ Supported selectors:
 - By tag: `+study`
 
 Modify tasks
+
+```bash
 task 3 modify pri:M
 task +study modify project:cs
 task pri:H modify due:tomorrow
-
+```
 
 Description operations:
 
+```bash
 task 1 modify description+= append text
 task 2 modify description^=prepend text
 task 3 modify description:new description
+```
 
 Delete tasks
+
+```bash
 task 3 delete
 task +study delete
 task pri:L delete
 task +study pri:L delete
+```
 
 ![Add task](screenshots/add.png)
 
@@ -73,8 +85,3 @@ task +study pri:L delete
 ![Description operations](screenshots/description.png)
 
 ![Delete task](screenshots/delete.png)
-
-
-
-```
-
